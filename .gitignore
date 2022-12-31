@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+__pycache__
+doc/*.aux
+doc/*.log
+doc/*.synctex*

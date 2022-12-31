@@ -1,0 +1,9 @@
+8/8/8/8/8/8/PPkPP3/KR1b4
+7K/pppp1ppp/4p3/8/8/8/8/8
+4B1rk/3ppKpp/8/8/8/8/8/8
+4Bnrk/3ppK1p/4p1p1/8/8/8/8/8
+2K2b2/1p1pppp1/1pp5/8/8/8/8/8
+8/8/8/8/8/8/PPPPPPPP/2B1RK2
+8/8/8/8/8/8/PPPPPPPP/KR3B2
+8/8/8/8/8/5P2/4PrPP/7K zone=c1
+8/8/8/8/8/8/6PP/6Nr frozen=g1
