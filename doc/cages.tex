@@ -50,7 +50,7 @@ A position is a {\bf cage} if the position remains illegal in any {\bf extension
 
 Cages are an important part of automated solving of retro problems. If a position contains a known cage, then it can be immediately rejected as illegal regardless of the rest of the position. But currently, Retractor 2 can only detect a limited set of cages, and Figure 2 is not one of them, so it cannot solve Figure 1. Automated detection of cages is difficult. In this paper, we propose an alternative solution, which is an algorithm that can {\bf verify} many (though not all) cages. A human supplies the claimed cage, and the computer verifies it. This allows a form of human+computer verification that should allay concerns expressed by Elkies that  ``human reasoning sometimes contain[s] holes big enough for a cook to slip through.''{\footnote{https://pairlist1.pair.net/pipermail/retros/2021-April/004918.html}}  
 
-A prototype implementation of this algorithm in Python can be found at (insert github link here).
+A prototype implementation of this algorithm in Python can be found at: {\tt https://github.com/hwatheod/retractor-python} 
 
 Figure 3 shows another example of a cage. 
 
