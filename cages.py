@@ -401,7 +401,7 @@ def is_cage_internal(board, zone_squares, white_king_square, black_king_square, 
         (original_square, new_square, unpromote, promoted_piece, uncastle) = retraction
         if not uncastle and new_square not in zone_squares:
             removed_unit = board[original_square[0]][original_square[1]]
-            if removed_unit[1] == EMPTY:
+            if removed_unit[1] == EMPTY:  # we already removed this unit from another retraction
                 continue
             retraction_sequence.append(retraction)
             removed_units.append((original_square[0], original_square[1], removed_unit))
